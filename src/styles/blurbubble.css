@@ -1,0 +1,50 @@
+.blur-bubble-container{
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid red; */
+}
+.bubble{
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+    filter: blur(50px);
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+.bubble-blue{
+    top: 0;
+    left: 0;
+    background-color: blue;
+    animation: blue-bubble-animation 15s ease-in-out infinite;
+}
+
+.bubble-green{
+    bottom: 0;
+    left: 25%;
+    background-color: green;
+    animation: green-bubble-animation 7s ease-in-out infinite 7s;
+}
+@keyframes blue-bubble-animation {
+    0%{
+        transform: scale(1) translateX(0) translateY(0);
+    }
+    50%{
+        transform: scale(1.1) translateX(50%) translateY(100%);
+    }
+    100%{
+        transform: scale(1) translateX(0) translateY(0);
+    }
+}
+@keyframes green-bubble-animation {
+    0%{
+        transform: scale(1) translateX(0) translateY(0);
+    }
+    50%{
+        transform: scale(1.1) translateX(-50%) translateY(-100%);
+    }
+    100%{
+        transform: scale(1) translateX(0) translateY(0);
+    }
+}

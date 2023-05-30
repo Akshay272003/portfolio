@@ -1,4 +1,5 @@
 const About = () => {
+
     return (
         <div id="about-me" className="panel-content panel-about">
             <p className="panel-content-header header-about">
@@ -9,10 +10,10 @@ const About = () => {
                 <p>
                     I'm a motivated programmer from Mandsaur, India.
                     With passion of programming I have good hands-on several languages including javascript and python.
-                    If you are looking for an intern with good froentend skills then your search ends here.
+                    If you are looking for an intern with good frontend skills then your search ends here.
                 </p>
 
-                <button className="about-contact-btn">
+                <button onClick={() => document.getElementById("contact-me").scrollIntoView()} className="about-contact-btn">
                     Contact me
                 </button>
 

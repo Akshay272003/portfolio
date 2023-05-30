@@ -17,7 +17,7 @@ const MyProjects = () => {
                 {/* eat fit project card  */}
                 <div className="project-card eat-fit-card">
                     <div className="image-container">
-                        <img className="project-image" src="src\assets\eat-fit.PNG" alt="" />
+                        <img className="project-image" src="/images/eat-fit.PNG" alt="" />
 
                         <a className="proj-link" href="https://a-eatfit.netlify.app/">Go to site</a>
                     </div>
@@ -55,7 +55,7 @@ const MyProjects = () => {
                 {/* portfolio website project card */}
                 <div className="project-card portfolio-card">
                     <div className="image-container">
-                        <img className="project-image" src="src\assets\portfolio.PNG" alt="" />
+                        <img className="project-image" src="/images/portfolio.PNG" alt="" />
 
                         <a className="proj-link" href="">Go to site</a>
                     </div>
@@ -93,7 +93,7 @@ const MyProjects = () => {
                 {/* pokedex project card  */}
                 <div className="project-card pokedex-card">
                     <div className="image-container">
-                        <img className="project-image" src="src\assets\pokedex.PNG" alt="" />
+                        <img className="project-image" src="/images/pokedex.PNG" alt="" />
 
                         <a className="proj-link" href="https://a-pokedex.netlify.app/">Go to site</a>
                     </div>

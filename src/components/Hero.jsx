@@ -11,7 +11,7 @@ const Hero = () => {
             </div>
             {/* herp image  */}
 
-            <img src="src\assets\akshay.png" className="hero-img"/>
+            <img src="/images/akshay.png" className="hero-img"/>
             <div className="blur-bubble-container">
                 <div className="bubble bubble-blue"></div>
                 <div className="bubble bubble-green"></div>
